@@ -1,3 +1,3 @@
-lima
-sublime text
-brew
+* lima
+* sublime text
+* brew
