@@ -2,3 +2,4 @@
 * sublime text
 * brew
 * pearcleaner
+* wipr
