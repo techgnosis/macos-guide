@@ -1,0 +1,3 @@
+lima
+sublime text
+brew
