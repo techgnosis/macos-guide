@@ -1,0 +1,1 @@
+the lima project. short for "linux machines". easy and clean way to make a linux VM on macOS using apple native hypervisor "vz"

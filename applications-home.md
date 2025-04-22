@@ -1,0 +1,1 @@
+.app files do not have to be in /Applications. You can put them anywhere in your path and Finder will pick it up. You can also make a ~/Applications directory and Finder will add that little 'A' icon to it if you want to feel fancy.
