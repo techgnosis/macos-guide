@@ -1,4 +1,4 @@
-launchd is l
+launchd is like systemd
 
 
 
@@ -19,7 +19,7 @@ I verified a bit by looking at the files in /System/Library/LaunchAgents and the
 There is a LOT of stuff that runs at launch in macOS
 
 You can see evidence that launchd launches EVERYTHING here
-![launchd owns the whole tree](launchd-all-processes.png)
+![a screenshot of activity monitor showing every process under launchd](launchd-all-processes.png)
 
 
 

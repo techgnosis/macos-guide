@@ -1,4 +1,3 @@
-launchd is like systemd
 launchctl is like systemctl
 
 man launchctl

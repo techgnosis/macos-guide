@@ -15,6 +15,7 @@ also check out launchctl
 SMAppService is the API
 backgroundtaskmanagementd is the process that hosts the API
 It maintains the database of services and statuses
+This is meant for USER services only. Apple still relies on plist files in /System/Library for the vast majority of running processes in macOS.
 
 
 Here we go
