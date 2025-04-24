@@ -12,12 +12,6 @@ Icons and whatnot are in `Resources`
 
 
 
-/Library/LaunchAgents
-/Library/LaunchDaemons
-~/Library/LaunchAgents
-~/Librray/LaunchDaemons
-
-
 
 You can use plutil to make plists if you want to test out an app bundle
 

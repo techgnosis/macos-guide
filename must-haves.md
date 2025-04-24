@@ -3,4 +3,3 @@
 * brew
 * pearcleaner
 * wipr
-* scroll reverser
