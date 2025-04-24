@@ -1,35 +1,5 @@
-launchd is like systemd
-launchctl is like systemctl
+launchd is l
 
-man launchctl
-
-fundamental structures
-* domains - manages execution policy for one or more services
-* services - a process
-* endpoints - hosted by the service. using any endpoint will cause the service to launch automatically
-
-domains
-* system
-* user
-* login
-* gui
-* pid
-
-launchctl print system
-launchctl print system/<service name>
-launchctl print user/1001
-etc..
-
-launchctl print-disabled system
-launchctl print-disabled user/1001
-
-launchctl reboot
-launchctl reboot system - same as with no argument
-
-
-
-
----------
 
 
 A LaunchDaemon is run as root and starts before any user sessions begin
@@ -47,4 +17,11 @@ Both are controlled by `launchd` and `.plist` files in
 I verified a bit by looking at the files in /System/Library/LaunchAgents and they are all running and owned by my user
 
 There is a LOT of stuff that runs at launch in macOS
+
+You can see evidence that launchd launches EVERYTHING here
+![launchd owns the whole tree](launchd-all-processes.png)
+
+
+
+https://developer.apple.com/documentation/servicemanagement/smappservice/register()#Discussion
 

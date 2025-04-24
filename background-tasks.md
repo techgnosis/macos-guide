@@ -12,7 +12,9 @@ https://www.kandji.io/blog/macos-ventura-login-background-items
 
 also check out launchctl
 
-SMAppService
+SMAppService is the API
+backgroundtaskmanagementd is the process that hosts the API
+It maintains the database of services and statuses
 
 
 Here we go
