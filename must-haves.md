@@ -3,3 +3,4 @@
 * brew
 * pearcleaner
 * wipr
+* glow
