@@ -1,0 +1,1 @@
+you can use `glow` to preview Markdown in the terminal. glow has a TUI mode with `glow --tui` and then you can select files in real time to view
