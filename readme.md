@@ -1,1 +1,1 @@
-I take notes while I study. Trying to learn more about how macOS works since I use it all day every day
+Trying to learn more about how macOS works since I use it all day every day
