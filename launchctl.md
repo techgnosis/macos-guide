@@ -25,4 +25,6 @@ launchctl print-disabled user/1001
 launchctl reboot
 launchctl reboot system - same as with no argument
 
-Just run launchctl on its own to get
+
+launchctl list - show user services
+sudo launchctl list - show system services
