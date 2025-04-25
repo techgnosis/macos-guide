@@ -32,3 +32,6 @@ You can run `podman system connection list` to see the SSH connections that conn
 By default all podman containers launch on a bridge network called `podman`
 All containers in a bridge network can reach other containers and the internet throught the host
 Containers in one bridge network can reach containers in other bridge networks
+
+
+container networks and container ipam is handled by netavark
