@@ -6,15 +6,15 @@ the executables are in `MacOS`
 
 shared libraries are in `Frameworks`
 
-Icons and whatnot are in `Resources`
+Icons and things are in `Resources`
 
 .plist files for launchd are located in `Library`
 
 
 
 
-You can use plutil to make plists if you want to test out an app bundle
+You can use `plutil` to make plists if you want to test out an app bundle
 
-You can make icons with iconutil
+You can make icons with `iconutil`
 
-You can sign code with codesign
+You can sign code with `codesign`
