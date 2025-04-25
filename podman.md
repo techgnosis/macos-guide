@@ -18,3 +18,17 @@ You can see there that `conmon` runs `crun`
 In the Linux VM you find this
 `podman system service`
 and that starts up an API Listener for remote clients. That is how this works.
+
+You can run `podman system connection list` to see the SSH connections that connect the sockets together
+
+
+
+* Linux VM has a socket at `/run/podman/podman.sock`
+* Linux VM has `podman system service` process running and listening to that socket
+* macOS has a socket in `/var/folders`. You can find the location with `podman machine inspect` at `ConnectionInfo.PodmanSocket.Path`
+* Those two sockets are connected by an SSH tunnel. Any data sent to the socket in macOS is sent to the socket in the Linux VM
+* podman CLI sends commands to `podman system service` which runs `conman` which run `crun` to launch the process in the container
+
+By default all podman containers launch on a bridge network called `podman`
+All containers in a bridge network can reach other containers and the internet throught the host
+Containers in one bridge network can reach containers in other bridge networks
