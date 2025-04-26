@@ -33,5 +33,13 @@ By default all podman containers launch on a bridge network called `podman`
 All containers in a bridge network can reach other containers and the internet throught the host
 Containers in one bridge network can reach containers in other bridge networks
 
+https://www.skreutz.com/posts/unix-domain-socket-forwarding-with-openssh/
+
 
 container networks and container ipam is handled by netavark
+
+
+
+`/usr/share/containers/containers.conf` is the config file for podman and buildah
+
+copy it to `/etc/containers/`
