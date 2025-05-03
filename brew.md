@@ -4,13 +4,8 @@ https://docs.brew.sh/Installation#untar-anywhere-unsupported
 
 
 
+A "tap" is a repo
+You can add a "tap" to get access to private formulae
 
-
-jamesmusselwhite@Jamess-MacBook-Air etc % brew list
-==> Formulae
-ca-certificates	glow		libunistring	podman
-gettext		libidn2		openssl@3	wget
-
-glow - markdown preview in the console. its awesome
-gettext - that's how you get envsubst
-podman - i prefer it to docker
+You can export all the packages that you have explicitly installed with
+`brew bundle dump` which dumps it out to [Brewfile](Brewfile)
